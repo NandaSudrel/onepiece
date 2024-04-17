@@ -3,7 +3,7 @@ body{
     padding-top: 0px;
     text-align: center;
   background-image: url(background.jpg);
-   background-size: cover;
+   background-size:cover;
     
     
  }
@@ -26,23 +26,30 @@ body{
     border: solid white;
  }
  .menu{
-    background-color:black;
-     margin-top: 0%;
+    position: sticky;
+    background-image: url(menu.png);
+    background-size: cover;
+     width: 100%;
      top: 0%;
      border: solid black;
-     border-radius: 10px;
-     position: (center);
+     border-radius: 15px;
+     z-index: 1;
+     
      
  }
  .subtitulo{
-    background-color: rgb(3, 3, 3);
+    background-image: url(subtitulo.png);
+    background-size: cover;
     color: rgb(255, 255, 255);
     font-size: 30px;
+    border: solid black;
+    border-radius: 15px;
  }
 
  a{
-     color: rgb(255, 255, 255);
+     color: rgb(0, 0, 0);
      text-decoration: none;
+     font-family: Georgia, 'Times New Roman', Times, serif;
  }
  .links{
      display: inline;
